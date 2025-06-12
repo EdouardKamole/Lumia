@@ -57,6 +57,8 @@
 <?php include './includes/testimonial.php';?>
 <!--Tecnologies section-->
 <?php include './includes/technology.php';?>
+<!--team section-->
+<?php include './includes/team.php';?>
 
 </body>
 </html>
