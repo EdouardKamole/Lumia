@@ -17,16 +17,16 @@
             // Team Members Array
             $team = [
                 [
-                    'name' => 'David Okoro',
+                    'name' => 'Precious Adedokun',
                     'role' => 'Lead PHP Developer',
                     'country' => 'Nigeria',
                     'flag' => 'https://flagcdn.com/ng.svg',
-                    'image' => 'https://randomuser.me/api/portraits/men/32.jpg',
+                    'image' => 'https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2856590%2F5ab16ff7-2818-4af6-9253-948bf62d2d83.jpg',
                     'description' => 'Specializes in Laravel architecture and high-performance backend systems.',
                     'color' => 'blue',
                     'linkedin' => '#',
-                    'github' => '#',
-                    'portfolio' => '#'
+                    'github' => 'https://github.com/apreezofficial',
+                    'portfolio' => 'https://preciousadedokun.com.ng'
                 ],
                 [
                     'name' => 'Sophie Martin',

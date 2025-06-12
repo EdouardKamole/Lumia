@@ -98,10 +98,15 @@
                     <div class="text-4xl font-bold text-white mb-2">15+</div>
                     <div class="text-gray-400">Industries Served</div>
                 </div>
-                <div>
-                    <div class="text-4xl font-bold text-white mb-2">5</div>
-                    <div class="text-gray-400">Years Experience</div>
-                </div>
+<?php
+$currentYear = date('Y');
+$experienceYears = max(1, $currentYear - 2022);
+?>
+
+<div>
+    <div class="text-4xl font-bold text-white mb-2"><?= $experienceYears ?></div>
+    <div class="text-gray-400"><?= $experienceYears > 1 ? 'Years' : 'Year' ?> Experience</div>
+</div>
             </div>
         </div>
     </div>
