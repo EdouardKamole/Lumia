@@ -12,7 +12,7 @@
     <meta name="keywords" content="web development, mobile app development, PHP developers, JavaScript experts, custom software solutions">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://lumia.com">
+    <link rel="canonical" href="https://lumia.dev">
     
     <!-- Favicon & App Icons -->
     <link rel="icon" href="/assets/logo.jpg" type="image/jpg">
@@ -22,7 +22,7 @@
     
     <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://lumia.com">
+    <meta property="og:url" content="https://lumia.dev">
     <meta property="og:title" content="Lumia | Web & Mobile App Development Company">
     <meta property="og:description" content="We build cutting-edge web and mobile applications with innovative technology solutions">
     <meta property="og:image" content="/assets/banner.jpg">
@@ -44,8 +44,8 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Lumia",
-      "url": "https://lumia.com",
-      "logo": "https://lumia.com/assets/logo.jpg",
+      "url": "https://lumia.dev",
+      "logo": "https://lumia.dev/assets/logo.jpg",
       "sameAs": [
         "https://twitter.com/Lumia-tech",
         "https://linkedin.com/company/lumia-tech",
@@ -55,7 +55,7 @@
         "@type": "ContactPoint",
         "telephone": "+2349064779856",
         "contactType": "customer service",
-        "email": "contact@lumia.com",
+        "email": "contact@lumia.dev",
         "areaServed": "Global"
       }
     }
