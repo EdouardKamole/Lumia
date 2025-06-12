@@ -50,6 +50,6 @@
 <body class="bg-dark-DEFAULT text-gray-100 min-h-screen">
 <?php include './includes/nav.php';?>
 <!--Hero section-->
-
+<?php include './includes/hero.php';?>
 </body>
 </html>
