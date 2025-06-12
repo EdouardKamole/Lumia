@@ -1,4 +1,3 @@
-<!-- Lumia Tech Navbar with Cool Side Navigation -->
 <nav class="bg-dark-light/90 backdrop-blur-md border-b border-secondary-dark/20 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
@@ -111,7 +110,6 @@
 <div id="nav-overlay" class="fixed inset-0 bg-black/50 z-40 opacity-0 pointer-events-none transition-opacity duration-300"></div>
 
 <script>
-    // Mobile Side Nav Toggle - Updated for left position
     const mobileMenuButton = document.getElementById('mobile-menu-button');
     const closeSideNav = document.getElementById('close-side-nav');
     const mobileSideNav = document.getElementById('mobile-side-nav');
@@ -161,44 +159,3 @@
 
 <!-- Overlay -->
 <div id="nav-overlay" class="fixed inset-0 bg-black/50 z-40 opacity-0 pointer-events-none transition-opacity duration-300"></div>
-
-<script>
-    // Mobile Side Nav Toggle
-    const mobileMenuButton = document.getElementById('mobile-menu-button');
-    const closeSideNav = document.getElementById('close-side-nav');
-    const mobileSideNav = document.getElementById('mobile-side-nav');
-    const navOverlay = document.getElementById('nav-overlay');
-    const menuIconOpen = document.getElementById('menu-icon-open');
-    const menuIconClose = document.getElementById('menu-icon-close');
-
-    function toggleSideNav() {
-        const isOpen = mobileSideNav.classList.contains('translate-x-0');
-        
-        if (isOpen) {
-            // Close nav
-            mobileSideNav.classList.remove('translate-x-0');
-            mobileSideNav.classList.add('translate-x-full');
-            navOverlay.classList.remove('opacity-100', 'pointer-events-auto');
-            navOverlay.classList.add('opacity-0', 'pointer-events-none');
-            menuIconOpen.classList.remove('hidden');
-            menuIconClose.classList.add('hidden');
-        } else {
-            // Open nav
-            mobileSideNav.classList.remove('translate-x-full');
-            mobileSideNav.classList.add('translate-x-0');
-            navOverlay.classList.remove('opacity-0', 'pointer-events-none');
-            navOverlay.classList.add('opacity-100', 'pointer-events-auto');
-            menuIconOpen.classList.add('hidden');
-            menuIconClose.classList.remove('hidden');
-        }
-    }
-
-    mobileMenuButton.addEventListener('click', toggleSideNav);
-    closeSideNav.addEventListener('click', toggleSideNav);
-    navOverlay.addEventListener('click', toggleSideNav);
-
-    // Close nav when clicking on links
-    document.querySelectorAll('#mobile-side-nav a').forEach(link => {
-        link.addEventListener('click', toggleSideNav);
-    });
-</script>
