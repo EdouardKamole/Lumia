@@ -20,17 +20,17 @@
             
             <!-- Client 2 -->
             <div class="flex items-center justify-center p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-secondary-light transition-all duration-300 grayscale hover:grayscale-0">
-                <img src="https://via.placeholder.com/150x60?text=Finova" alt="Finova" class="h-10 w-auto max-w-full">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaSi-INgSrGuvFy63gqSlt52dd47XHMY-m75S0y1rlE-YwEKJ22_0TKnU&s" alt="Finova" class="h-10 w-auto max-w-full">
             </div>
             
             <!-- Client 3 -->
             <div class="flex items-center justify-center p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-secondary-light transition-all duration-300 grayscale hover:grayscale-0">
-                <img src="https://via.placeholder.com/150x60?text=HealthPlus" alt="HealthPlus" class="h-12 w-auto max-w-full">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOjBpDug_jkkAkG07AvG0sRhbKJhkJdAwWLMayDQuqlQ&s" alt="HealthPlus" class="h-12 w-auto max-w-full">
             </div>
             
             <!-- Client 4 -->
             <div class="flex items-center justify-center p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-secondary-light transition-all duration-300 grayscale hover:grayscale-0">
-                <img src="https://via.placeholder.com/150x60?text=EduTech" alt="EduTech" class="h-10 w-auto max-w-full">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkaDq0oI-SteiY1gQWbs9E2WX8Ys1VZUVbdN-p0QZbLA&s" alt="EduTech" class="h-10 w-auto max-w-full">
             </div>
             
             <!-- Client 5 -->
