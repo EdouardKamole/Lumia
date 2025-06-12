@@ -1,5 +1,5 @@
 <!-- === ABOUT US SECTION === -->
-<section class="py-20 bg-dark-DEFAULT">
+<section class="py-20 bg-black">
     <div class="container mx-auto px-5">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <!-- Left Column (Image) -->
@@ -35,7 +35,7 @@
                 
                 <div class="space-y-6">
                     <p class="text-gray-300">
-                        Founded in 2020, Lumia is a passionate team of developers, designers, and problem-solvers dedicated to building exceptional digital experiences.
+                        Founded in 2022, Lumia is a passionate team of developers, designers, and problem-solvers dedicated to building exceptional digital experiences.
                     </p>
                     
                     <p class="text-gray-300">
@@ -83,8 +83,8 @@
                     
                     <!-- CTA -->
                     <div class="mt-8">
-                        <a href="#contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-primary-light to-secondary-light hover:from-primary-dark hover:to-secondary-dark">
-                            Learn More About Us
+                        <a href="/contact.php" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-primary-light to-secondary-light hover:from-primary-dark hover:to-secondary-dark">
+                            Get a Quote Now
                             <svg class="ml-3 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>

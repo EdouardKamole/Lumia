@@ -19,7 +19,7 @@
                 $navItems = [
                     'Home' => 'index.php',
                     'Services' => 'services.php',
-                    'Work' => 'portfolio.php',
+                    'Work' => 'projects.php',
                     'About' => 'about.php',
                     'Contact' => 'contact.php'
                 ];
