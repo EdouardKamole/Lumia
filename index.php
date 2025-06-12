@@ -55,5 +55,7 @@
 <?php include './includes/service.php';?>
 <!--Project section-->
 <?php include './includes/project.php';?>
+<!--Testimonial section-->
+<?php include './includes/testimonial.php';?>
 </body>
 </html>
