@@ -13,7 +13,7 @@
             </div>
 
             <!-- Contact Form -->
-            <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="bg-gray-800/50 rounded-xl p-8 border border-gray-700">
+            <form id="contact-form" action="https://formspree.io/f/mwpvegle" method="POST" class="bg-gray-800/50 rounded-xl p-8 border border-gray-700">
                 <!-- Form Status Messages -->
                 <div id="form-status" class="hidden mb-6 p-4 rounded-md"></div>
                 
