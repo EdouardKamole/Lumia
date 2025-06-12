@@ -1,5 +1,5 @@
 <!-- === CLIENT SHOWCASE SECTION === -->
-<section class="py-20 bg-dark-DEFAULT">
+<section class="py-20 bg-black">
     <div class="container mx-auto px-5">
         <!-- Section Header -->
         <div class="text-center mb-16">
@@ -37,16 +37,6 @@
             <div class="flex items-center justify-center p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-secondary-light transition-all duration-300 grayscale hover:grayscale-0">
                 <img src="https://via.placeholder.com/150x60?text=GreenLife" alt="GreenLife" class="h-8 w-auto max-w-full">
             </div>
-        </div>
-
-        <!-- Case Studies CTA -->
-        <div class="mt-16 text-center">
-            <a href="#case-studies" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-primary-light to-secondary-light hover:from-primary-dark hover:to-secondary-dark">
-                View Case Studies
-                <svg class="ml-3 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                </svg>
-            </a>
         </div>
     </div>
 </section>

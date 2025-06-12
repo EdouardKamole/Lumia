@@ -47,19 +47,6 @@
 </head>
 <body class="bg-dark-DEFAULT text-gray-100 min-h-screen">
 <?php include './includes/nav.php';?>
-<!--Hero section-->
-<?php include './includes/hero.php';?>
-<?php include './includes/client.php';?>
-<!--Servuces section-->
-<?php include './includes/service.php';?>
-<!--Project section-->
-<?php include './includes/project.php';?>
-<!--Testimonial section-->
-<?php include './includes/testimonial.php';?>
-<!--Tecnologies section-->
-<?php include './includes/technology.php';?>
-<!--team section-->
-<?php include './includes/team.php';?>
 <?php include './includes/contact.php';?>
 <?php include './includes/footer.php';?>
 </body>
