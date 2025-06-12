@@ -35,7 +35,7 @@
             
             <!-- Client 5 -->
             <div class="flex items-center justify-center p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-secondary-light transition-all duration-300 grayscale hover:grayscale-0">
-                <img src="https://via.placeholder.com/150x60?text=GreenLife" alt="GreenLife" class="h-8 w-auto max-w-full">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYZXJCWI8YhS76NtLpFrMiTjg89OOLpYg3_6fZHQgSnA&s" alt="GreenLife" class="h-8 w-auto max-w-full">
             </div>
         </div>
     </div>
