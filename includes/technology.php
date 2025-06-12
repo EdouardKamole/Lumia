@@ -1,5 +1,5 @@
 <!-- === TECH STACK SECTION === -->
-<section class="py-20 bg-dark-DEFAULT">
+<section class="py-20 bg-black">
     <div class="container mx-auto px-5">
         <!-- Section Header -->
         <div class="text-center mb-16">

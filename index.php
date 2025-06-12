@@ -8,8 +8,6 @@
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Custom Tailwind Configuration (optional) -->
     <script>
         tailwind.config = {
             theme: {
@@ -57,5 +55,8 @@
 <?php include './includes/project.php';?>
 <!--Testimonial section-->
 <?php include './includes/testimonial.php';?>
+<!--Tecnologies section-->
+<?php include './includes/technology.php';?>
+
 </body>
 </html>
