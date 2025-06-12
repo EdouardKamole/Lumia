@@ -46,7 +46,7 @@
                     <li><a href="#" class="text-gray-400 hover:text-secondary-light transition-colors">Home</a></li>
                     <li><a href="#services" class="text-gray-400 hover:text-secondary-light transition-colors">Services</a></li>
                     <li><a href="#work" class="text-gray-400 hover:text-secondary-light transition-colors">Our Work</a></li>
-                    <li><a href="#about" class="text-gray-400 hover:text-secondary-light transition-colors">About Us</a></li>
+                    <li><a href="/about.php" class="text-gray-400 hover:text-secondary-light transition-colors">About Us</a></li>
                     <li><a href="/contact.php" class="text-gray-400 hover:text-secondary-light transition-colors">Contact</a></li>
                 </ul>
             </div>
@@ -55,11 +55,11 @@
             <div>
                 <h3 class="text-white text-lg font-semibold mb-5">Services</h3>
                 <ul class="space-y-3">
-                    <li><a href="#" class="text-gray-400 hover:text-secondary-light transition-colors">Web Development</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-secondary-light transition-colors">Mobile Apps</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-secondary-light transition-colors">UI/UX Design</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-secondary-light transition-colors">API Development</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-secondary-light transition-colors">DevOps</a></li>
+                    <li><a href="/services.php" class="text-gray-400 hover:text-secondary-light transition-colors">Web Development</a></li>
+                    <li><a href="/services.php" class="text-gray-400 hover:text-secondary-light transition-colors">Mobile Apps</a></li>
+                    <li><a href="/services.php" class="text-gray-400 hover:text-secondary-light transition-colors">UI/UX Design</a></li>
+                    <li><a href="/services.php" class="text-gray-400 hover:text-secondary-light transition-colors">API Development</a></li>
+                    <li><a href="/services.php" class="text-gray-400 hover:text-secondary-light transition-colors">DevOps</a></li>
                 </ul>
             </div>
 
