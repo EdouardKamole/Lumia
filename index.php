@@ -53,5 +53,7 @@
 <?php include './includes/hero.php';?>
 <!--Servuces section-->
 <?php include './includes/service.php';?>
+<!--Project section-->
+<?php include './includes/project.php';?>
 </body>
 </html>
