@@ -15,7 +15,7 @@
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
             <!-- Client 1 -->
             <div class="flex items-center justify-center p-6 bg-gray-800/30 rounded-xl border border-gray-700 hover:border-secondary-light transition-all duration-300 grayscale hover:grayscale-0">
-                <img src="https://via.placeholder.com/150x60?text=TechCorp" alt="TechCorp" class="h-10 w-auto max-w-full">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRc5d_lcN0Q49S-lwsa3TrWqmrdy7Z8PUoNsciTkGXPsc6f8ClYnfUyFKwxP50MKkVIl_IFQkzXrzPnMB5qIfCnjKnVdtOwmm8nEPL7M48HeA" alt="TechCorp" class="h-10 w-auto max-w-full">
             </div>
             
             <!-- Client 2 -->
