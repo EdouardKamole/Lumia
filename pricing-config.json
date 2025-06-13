@@ -1,0 +1,120 @@
+{
+    "website": {
+        "base": 2000,
+        "types": [
+            {
+                "value": "landing",
+                "label": "Landing Page",
+                "description": "Single page website",
+                "price": 0
+            },
+            {
+                "value": "business",
+                "label": "Business Website",
+                "description": "5-10 page website",
+                "price": 1000
+            },
+            {
+                "value": "ecommerce",
+                "label": "E-Commerce",
+                "description": "Online store",
+                "price": 3000
+            }
+        ],
+        "features": [
+            {
+                "value": "responsive",
+                "label": "Responsive Design",
+                "description": "Mobile-friendly layout",
+                "price": 500
+            },
+            {
+                "value": "cms",
+                "label": "CMS Integration",
+                "description": "WordPress or custom CMS",
+                "price": 800
+            },
+            {
+                "value": "seo",
+                "label": "SEO Optimization",
+                "description": "Basic search engine optimization",
+                "price": 400
+            },
+            {
+                "value": "multilang",
+                "label": "Multilingual",
+                "description": "Multiple language support",
+                "price": 600
+            }
+        ]
+    },
+    "mobile-app": {
+        "base": 5000,
+        "platforms": [
+            {
+                "value": "ios",
+                "label": "iOS Only",
+                "description": "Native iOS app",
+                "price": 0
+            },
+            {
+                "value": "android",
+                "label": "Android Only",
+                "description": "Native Android app",
+                "price": 0
+            },
+            {
+                "value": "cross",
+                "label": "Cross-Platform",
+                "description": "Works on both iOS & Android",
+                "price": 2000
+            }
+        ],
+        "core_features": [
+            {
+                "value": "auth",
+                "label": "User Authentication",
+                "description": "Login/signup system",
+                "price": 800
+            },
+            {
+                "value": "payments",
+                "label": "Payment Integration",
+                "description": "In-app purchases",
+                "price": 1000
+            },
+            {
+                "value": "offline",
+                "label": "Offline Support",
+                "description": "Works without internet",
+                "price": 1200
+            }
+        ],
+        "features": [
+            {
+                "value": "push",
+                "label": "Push Notifications",
+                "description": "Real-time alerts",
+                "price": 600
+            },
+            {
+                "value": "social",
+                "label": "Social Integration",
+                "description": "Share to social media",
+                "price": 400
+            },
+            {
+                "value": "analytics",
+                "label": "Analytics Dashboard",
+                "description": "User behavior tracking",
+                "price": 700
+            },
+            {
+                "value": "ar",
+                "label": "AR Features",
+                "description": "Augmented reality",
+                "price": 2500
+            }
+        ]
+    }
+}
