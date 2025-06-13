@@ -52,6 +52,30 @@
     'github' => '',
     'portfolio' => 'https://livingstonportfolio.netlify.app/'
 ],
+[
+    'name' => 'Nathan Birhindwa',
+    'role' => 'Fullstack Engineer (Web, Mobile, Desktop, Backend)',
+    'country' => 'Uganda',
+    'flag' => 'https://flagcdn.com/ug.svg',
+    'image' => 'https://your-image-link.jpg', // replace with your actual image URL
+    'description' => 'Versatile developer building modern apps across web, mobile, and desktop platforms. Skilled in backend engineering, modern UI, and cross-platform systems.',
+    'color' => 'orange',
+    'linkedin' => 'https://www.linkedin.com/in/nathan-birhindwa', // update if needed
+    'github' => 'https://github.com/Nathan-Birindwa',
+    'portfolio' => 'https://your-portfolio-link.com' // replace with your actual portfolio link
+],
+[
+    'name' => 'Bin Salomon',
+    'role' => 'Backend Developer (PHP & C++)',
+    'country' => 'Democratic Republic of the Congo',
+    'flag' => 'https://flagcdn.com/cd.svg',
+    'image' => 'https://avatars.githubusercontent.com/u/180022324?v=4',
+    'description' => 'Experienced in modern PHP frameworks and advanced C++ development. Builds secure, optimized backend systems.',
+    'color' => 'indigo',
+    'linkedin' => 'https://ug.linkedin.com/in/bin-salomon-708357348',
+    'github' => 'https://github.com/Binsalomon',
+    'portfolio' => '#'
+],
                 [
                     'name' => 'Sophie Martin',
                     'role' => 'Frontend Architect',
@@ -76,13 +100,14 @@
                     'github' => '#',
                     'portfolio' => '#'
                 ],
-                // Add as many team members as you like here
+
             ];
 
             foreach ($team as $member) :
                 // Assign gradient based on color
                 $gradient = match ($member['color']) {
                     'blue' => 'from-blue-500/10 to-blue-700/20',
+                      'pink' => 'from-pink-500/10 to-pink-700/20',
                     'purple' => 'from-purple-500/10 to-violet-700/20',
                     'emerald' => 'from-emerald-500/10 to-teal-700/20',
                     default => 'from-gray-500/10 to-gray-700/20'
