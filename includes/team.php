@@ -76,31 +76,30 @@
     'github' => 'https://github.com/Binsalomon',
     'portfolio' => '#'
 ],
-                [
-                    'name' => 'Sophie Martin',
-                    'role' => 'Frontend Architect',
-                    'country' => 'France',
-                    'flag' => 'https://flagcdn.com/fr.svg',
-                    'image' => 'https://randomuser.me/api/portraits/women/44.jpg',
-                    'description' => 'React specialist creating pixel-perfect UI/UX experiences with animations.',
-                    'color' => 'purple',
-                    'linkedin' => '#',
-                    'github' => '#',
-                    'portfolio' => '#'
-                ],
-                [
-                    'name' => 'Carlos Mendez',
-                    'role' => 'DevOps Engineer',
-                    'country' => 'Mexico',
-                    'flag' => 'https://flagcdn.com/mx.svg',
-                    'image' => 'https://randomuser.me/api/portraits/men/75.jpg',
-                    'description' => 'Expert in cloud infrastructure and CI/CD automation.',
-                    'color' => 'emerald',
-                    'linkedin' => '#',
-                    'github' => '#',
-                    'portfolio' => '#'
-                ],
-
+[
+    'name' => 'Aghahowa Uyiosa',
+    'role' => 'Head of Engineering & Fullstack Developer',
+    'country' => 'Nigeria',
+    'flag' => 'https://flagcdn.com/ng.svg',
+    'image' => 'https://your-image-link.jpg',
+    'description' => 'Highly skilled in React, Node.js, Next.js, TypeScript, Flutter, and React Native. Leads engineering teams and drives development across web and mobile platforms.',
+    'color' => 'darkblue',
+    'linkedin' => 'https://www.linkedin.com/in/osamudiamen-aghahowa-2a8b73237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    'github' => 'https://github.com/Uyiosa2607',
+    'portfolio' => 'https://osaswebdev.vercel.app'
+],
+[
+    'name' => 'Bin Salomon',
+    'role' => 'Backend Developer (PHP & C++)',
+    'country' => 'Democratic Republic of the Congo',
+    'flag' => 'https://flagcdn.com/cd.svg',
+    'image' => 'https://avatars.githubusercontent.com/u/180022324?v=4',
+    'description' => 'Experienced in modern PHP frameworks and advanced C++ development. Builds secure, optimized backend systems.',
+    'color' => 'indigo',
+    'linkedin' => 'https://ug.linkedin.com/in/bin-salomon-708357348',
+    'github' => 'https://github.com/Binsalomon',
+    'portfolio' => '#'
+],
             ];
 
             foreach ($team as $member) :
@@ -110,6 +109,7 @@
                       'pink' => 'from-pink-500/10 to-pink-700/20',
                     'purple' => 'from-purple-500/10 to-violet-700/20',
                     'emerald' => 'from-emerald-500/10 to-teal-700/20',
+                    'orange' => 'from-orange-500/10 to-orange-700/20',        'indigo' => 'from-indigo-500/10 to-indigo-700/20',
                     default => 'from-gray-500/10 to-gray-700/20'
                 };
                 // Assign hover color based on theme
