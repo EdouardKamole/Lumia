@@ -41,6 +41,18 @@
                     'portfolio' => 'https://preciousadedokun.com.ng'
                 ],
                 [
+    'name' => 'Livingstone Ndigezza',
+    'role' => 'Head of Sales, Marketing & Research',
+    'country' => 'Uganda',
+    'flag' => 'https://flagcdn.com/ug.svg',
+    'image' => 'https://livingstonportfolio.netlify.app/images/livingston1.jpeg',
+    'description' => 'Leads marketing strategy, sales growth, and research initiatives. Drives company outreach and secures deals to expand Lumia Tech Solutions’ market presence.',
+    'color' => 'pink',
+    'linkedin' => 'https://www.linkedin.com/in/livingstone-ndigezza-87a87412b/?originalSubdomain=ug',
+    'github' => '',
+    'portfolio' => 'https://livingstonportfolio.netlify.app/'
+],
+                [
                     'name' => 'Sophie Martin',
                     'role' => 'Frontend Architect',
                     'country' => 'France',
