@@ -14,10 +14,10 @@
             
             <!-- CTA Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="#contact" class="px-6 py-3 bg-gradient-to-r from-primary-light to-secondary-light hover:from-primary-dark hover:to-secondary-dark text-white font-medium rounded-lg transition-all duration-200 shadow hover:shadow-lg">
+                <a href="quote.php" class="px-6 py-3 bg-gradient-to-r from-primary-light to-secondary-light hover:from-primary-dark hover:to-secondary-dark text-white font-medium rounded-lg transition-all duration-200 shadow hover:shadow-lg">
                     Get Started
                 </a>
-                <a href="#work" class="px-6 py-3 border border-gray-600 hover:border-secondary-light text-white font-medium rounded-lg transition-all duration-200 hover:bg-gray-800/30">
+                <a href="/projects.php" class="px-6 py-3 border border-gray-600 hover:border-secondary-light text-white font-medium rounded-lg transition-all duration-200 hover:bg-gray-800/30">
                     View Projects
                 </a>
             </div>

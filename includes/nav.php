@@ -5,9 +5,7 @@
             <div class="flex-shrink-0 flex items-center">
                 <a href="index.php" class="flex items-center space-x-3 group">
                     <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-primary-light to-secondary-light flex items-center justify-center transform group-hover:rotate-12 transition duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
-                        </svg>
+<img src="/assets/logo.jpg">
                     </div>
                     <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-light to-secondary-light tracking-tight">LUMIA</span>
                 </a>
