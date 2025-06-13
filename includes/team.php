@@ -95,7 +95,7 @@
     'flag' => 'https://flagcdn.com/cd.svg',
     'image' => 'https://avatars.githubusercontent.com/u/180022324?v=4',
     'description' => 'Experienced in modern PHP frameworks and advanced C++ development. Builds secure, optimized backend systems.',
-    'color' => 'indigo',
+    'color' => 'yellow',
     'linkedin' => 'https://ug.linkedin.com/in/bin-salomon-708357348',
     'github' => 'https://github.com/Binsalomon',
     'portfolio' => '#'
