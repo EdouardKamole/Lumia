@@ -25,12 +25,31 @@
             <!-- Tech Stack Indicator (Optional) -->
             <div class="mt-12 pt-6 border-t border-gray-800">
                 <p class="text-gray-400 text-sm mb-3">OUR TECH STACK</p>
-                <div class="flex flex-wrap justify-center gap-3">
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">PHP</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">JavaScript</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">MySQL</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Tailwind CSS</span>
-                </div>
+<div class="flex flex-wrap justify-center gap-3">
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">PHP</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">JavaScript</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">MySQL</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Tailwind CSS</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">HTML</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">CSS</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">React</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Vue.js</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Angular</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Node.js</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Python</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Django</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Laravel</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Bootstrap</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">TypeScript</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">MongoDB</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Firebase</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Java</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">C</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">C++</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Git</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">GitHub</span>
+    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm text-gray-300">Figma</span>
+</div>
             </div>
         </div>
     </div>
