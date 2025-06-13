@@ -36,7 +36,7 @@ $pricingConfig = json_decode(file_get_contents('pricing-config.json'), true);
     <title>Project Cost Estimator | Lumia</title>
 </head>
 <body class="bg-black text-gray-100">
-  <?php include"/includes/nav.php"; ?>
+  <?php include"includes/nav.php"; ?>
     <div class="container mx-auto px-4 py-16">
         <h1 class="text-3xl md:text-4xl font-bold text-center mb-2">Project Cost Estimator</h1>
         <p class="text-lg text-gray-400 text-center mb-12 max-w-2xl mx-auto">
@@ -612,6 +612,6 @@ function showFormStatus(message, classes) {
     formStatus.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 </script>
-  <?php include"/includes/footer.php"; ?>
+  <?php include"includes/footer.php"; ?>
     </body>
     </html>
