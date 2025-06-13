@@ -16,6 +16,18 @@
             <?php
             // Team Members Array
             $team = [
+              [
+    'name' => 'Eddy Kamole',
+    'role' => 'CEO & Lead Fullstack Developer',
+    'country' => 'Democratic Republic of the Congo',
+    'flag' => 'https://flagcdn.com/cd.svg',
+    'image' => 'https://avatars.githubusercontent.com/u/156857641?v=4',
+    'description' => 'Founder of Lumia Tech Solutions. Expert in React, Node.js, TypeScript, Next.js, Flutter, React Native, Desktop Apps, and Golang. Leads product strategy and engineering vision.',
+    'color' => 'purple',
+    'linkedin' => 'https://www.linkedin.com/in/eddy-kamole-28aaa6288/',
+    'github' => 'https://github.com/EdouardKamole',
+    'portfolio' => 'https://edouardkamole.github.io/eddy-kamole-portfolio/'
+],
                 [
                     'name' => 'Precious Adedokun',
                     'role' => 'Lead PHP Developer',
