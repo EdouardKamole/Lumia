@@ -4,7 +4,7 @@
         <!-- Section Header -->
         <div class="text-center mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary-light">Work</span>
+                Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary-light">Works</span>
             </h2>
             <p class="text-lg text-gray-300 max-w-2xl mx-auto">
                 See how we've helped businesses transform through technology.
