@@ -1,52 +1,72 @@
 <?php
 header('Content-Type: application/json');
 
-// Ensure the quotes directory exists
-if (!file_exists('quotes')) {
-    mkdir('quotes', 0755, true);
-}
+// Enable CORS if needed
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST");
+header("Access-Control-Allow-Headers: Content-Type");
 
-// Get the submitted data
-$data = json_decode(file_get_contents('php://input'), true);
-
-// Basic validation
-if (empty($data['project_type']) {
-    echo json_encode(['success' => false, 'message' => 'Project type is required']);
+// Check if it's a POST request
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    http_response_code(405);
+    echo json_encode(['success' => false, 'message' => 'Method not allowed']);
     exit;
 }
 
-// Generate filename with timestamp
-$timestamp = date('Y-m-d_H-i-s');
-$filename = "quotes/quote_{$timestamp}_{$data['estimate_id']}.json";
+// Get the raw POST data
+$json = file_get_contents('php://input');
+$data = json_decode($json, true);
+
+// Validate JSON data
+if (json_last_error() !== JSON_ERROR_NONE) {
+    http_response_code(400);
+    echo json_encode(['success' => false, 'message' => 'Invalid JSON data']);
+    exit;
+}
+
+// Validate required fields
+if (empty($data['project_type']) || empty($data['contact_info']['email']) || empty($data['contact_info']['name'])) {
+    http_response_code(400);
+    echo json_encode(['success' => false, 'message' => 'Required fields are missing']);
+    exit;
+}
+
+// Ensure the quotes directory exists
+$quotesDir = __DIR__ . '/quotes';
+if (!file_exists($quotesDir)) {
+    if (!mkdir($quotesDir, 0755, true)) {
+        http_response_code(500);
+        echo json_encode(['success' => false, 'message' => 'Could not create quotes directory']);
+        exit;
+    }
+}
+
+// Generate filename
+$timestamp = date('Y-m-d_His');
+$filename = "quote_{$timestamp}_{$data['estimate_id']}.json";
+$filepath = $quotesDir . '/' . $filename;
 
 // Save to file
-if (file_put_contents($filename, json_encode($data, JSON_PRETTY_PRINT))) {
-    // In a real app, you might also save to database here
+try {
+    $bytesWritten = file_put_contents($filepath, json_encode($data, JSON_PRETTY_PRINT));
     
-    // Generate PDF (would require a library like TCPDF)
-    // generatePdfQuote($data, str_replace('.json', '.pdf', $filename));
+    if ($bytesWritten === false) {
+        throw new Exception('Failed to write quote file');
+    }
     
+    // Success response
     echo json_encode([
         'success' => true,
         'message' => 'Quote saved successfully',
-        'estimate_id' => $data['estimate_id']
+        'estimate_id' => $data['estimate_id'],
+        'file_path' => $filename
     ]);
-} else {
-    echo json_encode(['success' => false, 'message' => 'Error saving quote']);
-}
-
-// Helper function to generate PDF (example stub)
-function generatePdfQuote($data, $pdfPath) {
-    // This would use a PDF generation library in a real implementation
-    // For example:
-    /*
-    require_once('tcpdf/tcpdf.php');
-    $pdf = new TCPDF();
-    $pdf->AddPage();
-    $pdf->SetFont('helvetica', 'B', 16);
-    $pdf->Cell(0, 10, 'Your Quote Estimate', 0, 1);
-    // Add more content...
-    $pdf->Output($pdfPath, 'F');
-    */
+    
+} catch (Exception $e) {
+    http_response_code(500);
+    echo json_encode([
+        'success' => false,
+        'message' => 'Error saving quote: ' . $e->getMessage()
+    ]);
 }
 ?>
