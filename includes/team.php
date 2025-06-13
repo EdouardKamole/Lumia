@@ -109,8 +109,8 @@
                       'pink' => 'from-pink-500/10 to-pink-700/20',
                     'purple' => 'from-purple-500/10 to-violet-700/20',
                     'emerald' => 'from-emerald-500/10 to-teal-700/20',
-                    'orange' => 'from-orange-500/10 to-orange-700/20',        'indigo' => 'from-indigo-500/10 to-indigo-700/20',        'red' => 'from-red-500/10 to-orange-700/20',
-                    'yellow' => 'from-yellow-500/10 to-yellow-700/20',
+                    'orange' => 'from-orange-400 to-orange-700/20',        'indigo' => 'from-indigo-500/10 to-indigo-700/20',        'red' => 'from-red-300 to-orange-700/20',
+                    'yellow' => 'from-yellow-200 to-yellow-700/20',
                     default => 'from-gray-500/10 to-gray-700/20'
                 };
                 // Assign hover color based on theme
