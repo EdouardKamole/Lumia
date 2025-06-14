@@ -1,3 +1,4 @@
+<?php include "includes/pdo.php"; ?>
 <nav class="bg-dark-light/90 backdrop-blur-md border-b border-secondary-dark/20 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
