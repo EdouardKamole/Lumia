@@ -109,7 +109,6 @@ if (basename($_SERVER['PHP_SELF']) == 'services.php') {
 }
 ?>
    <?php
-// Show this CTA only if the current page is NOT services.php
 if (basename($_SERVER['PHP_SELF']) != 'services.php') {
 ?>
     <!-- CTA -->
