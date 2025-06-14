@@ -1,6 +1,6 @@
 <?php
 // Database connection using PDO
-$host = '0.0.0.0:3360';
+$host = '0.0.0.0';
 $db = 'lumia';
 $user = 'root';
 $pass = 'root';
@@ -22,10 +22,4 @@ try {
 }
 
 // Fetch projects from the database
-try {
-    $stmt = $pdo->query("SELECT * FROM projects ORDER BY id DESC");
-    $projects = $stmt->fetchAll();
-} catch (PDOException $e) {
-    die("Error fetching projects: " . $e->getMessage());
-}
 ?>
