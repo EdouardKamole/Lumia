@@ -59,7 +59,7 @@
             
             <!-- Alternative Contact -->
             <div class="mt-12 text-center text-gray-400">
-                <p>Or reach us directly at: <a href="mailto:contact@lumia.dev" class="text-secondary-light hover:underline">contact@lumia.dev</a></p>
+                <p>Or reach us directly at: <a href="mailto:contact@lumiatech.dev" class="text-secondary-light hover:underline">contact@lumiatech.dev</a></p>
             </div>
         </div>
     </div>
