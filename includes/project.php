@@ -18,6 +18,14 @@ if ($currentPage !== 'projects.php') {
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-4 bg-dark-light">
     <?php if (!empty($projects)): ?>
         <?php foreach ($projects as $project): ?>
+        <div class="text-center mb-16">
+    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary-light">Projects</span>
+    </h2>
+    <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+        Explore some of the innovative and impactful projects we've successfully delivered for businesses and individuals.
+    </p>
+</div>
             <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-800 bg-gray-900 hover:shadow-xl transition-all duration-500">
                 <div class="h-64 bg-gray-800 overflow-hidden">
                     <?php if (!empty($project['image_url'])): ?>
