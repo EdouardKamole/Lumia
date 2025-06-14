@@ -115,31 +115,48 @@
             ];
 
             foreach ($team as $member) :
-                // Assign gradient based on color
-                $gradient = match ($member['color']) {
-                    'blue' => 'from-blue-500/10 to-blue-700/20',
-                      'pink' => 'from-pink-500/10 to-pink-700/20',
-                    'purple' => 'from-purple-500/10 to-violet-700/20',
-                    'emerald' => 'from-emerald-500/10 to-teal-700/20',
-                    'orange' => 'from-orange-400 to-orange-700/20',        'indigo' => 'from-indigo-500/10 to-indigo-700/20',        'red' => 'from-red-300 to-orange-700/20',
-                    'yellow' => 'from-yellow-200 to-yellow-700/20',                    'crimpson' => 'from-green-200 to-yellow-700/20',
-                    default => 'from-gray-500/10 to-gray-700/20'
-                };
-                // Assign hover color based on theme
-                $hoverColor = match ($member['color']) {
-                    'blue' => 'hover:text-blue-400',
-                    'purple' => 'hover:text-purple-400',
-                    'emerald' => 'hover:text-emerald-400',
-                    default => 'hover:text-gray-400'
-                };
-                // Assign text color based on theme
-                $textColor = match ($member['color']) {
-                    'blue' => 'text-blue-400',
-                    'purple' => 'text-purple-400',
-                    'emerald' => 'text-emerald-400',
-                    default => 'text-gray-400'
-                };
-            ?>
+// Assign gradient based on color
+$gradient = match ($member['color']) {
+    'blue' => 'from-blue-500/10 to-blue-700/20',
+    'pink' => 'from-pink-500/10 to-pink-700/20',
+    'purple' => 'from-purple-500/10 to-violet-700/20',
+    'emerald' => 'from-emerald-500/10 to-teal-700/20',
+    'orange' => 'from-orange-400 to-orange-700/20',
+    'indigo' => 'from-indigo-500/10 to-indigo-700/20',
+    'red' => 'from-red-300 to-orange-700/20',
+    'yellow' => 'from-yellow-200 to-yellow-700/20',
+    'crimpson' => 'from-green-200 to-yellow-700/20',
+    default => 'from-gray-500/10 to-gray-700/20',
+};
+
+// Assign hover color based on theme
+$hoverColor = match ($member['color']) {
+    'blue' => 'hover:text-blue-400',
+    'pink' => 'hover:text-pink-400',
+    'purple' => 'hover:text-purple-400',
+    'emerald' => 'hover:text-emerald-400',
+    'orange' => 'hover:text-orange-400',
+    'indigo' => 'hover:text-indigo-400',
+    'red' => 'hover:text-red-400',
+    'yellow' => 'hover:text-yellow-400',
+    'crimpson' => 'hover:text-green-400',
+    default => 'hover:text-gray-400',
+};
+
+// Assign text color based on theme
+$textColor = match ($member['color']) {
+    'blue' => 'text-blue-400',
+    'pink' => 'text-pink-400',
+    'purple' => 'text-purple-400',
+    'emerald' => 'text-emerald-400',
+    'orange' => 'text-orange-400',
+    'indigo' => 'text-indigo-400',
+    'red' => 'text-red-400',
+    'yellow' => 'text-yellow-400',
+    'crimpson' => 'text-green-400',
+    default => 'text-gray-400',
+};
+?>
                 <div class="bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-secondary-light transition-all duration-300 group">
                     <!-- Dynamic Gradient BG -->
                     <div class="h-64 bg-gradient-to-br <?= $gradient ?> flex items-center justify-center relative overflow-hidden">
