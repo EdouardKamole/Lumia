@@ -100,6 +100,18 @@
     'github' => 'https://github.com/Binsalomon',
     'portfolio' => '#'
 ],
+[
+    'name' => 'Vicky Ciza',
+    'role' => 'Sales & Marketing Executive',
+    'country' => 'Democratic Republic of the Congo',
+    'flag' => 'https://flagcdn.com/cd.svg',
+    'image' => 'https://media.licdn.com/dms/image/v2/D4D03AQGBjdAZpRM2gw/profile-displayphoto-shrink_200_200/B4DZdqs2gLGgAY-/0/1749841835871?e=1755129600&v=beta&t=_Gk4JU6rO2hpVRDFKhzpYM6SzLeb0BynmUKG8khilZs',
+    'description' => 'Key contributor to marketing strategy, lead generation, and customer engagement for company growth in African markets.',
+    'color' => 'crimpson',
+    'linkedin' => 'https://www.linkedin.com/in/ciza-bahati-victoire-78a8892a9/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    'github' => '#',
+    'portfolio' => '#'
+],
             ];
 
             foreach ($team as $member) :
@@ -110,7 +122,7 @@
                     'purple' => 'from-purple-500/10 to-violet-700/20',
                     'emerald' => 'from-emerald-500/10 to-teal-700/20',
                     'orange' => 'from-orange-400 to-orange-700/20',        'indigo' => 'from-indigo-500/10 to-indigo-700/20',        'red' => 'from-red-300 to-orange-700/20',
-                    'yellow' => 'from-yellow-200 to-yellow-700/20',
+                    'yellow' => 'from-yellow-200 to-yellow-700/20',                    'crimpson' => 'from-green-200 to-yellow-700/20',
                     default => 'from-gray-500/10 to-gray-700/20'
                 };
                 // Assign hover color based on theme
