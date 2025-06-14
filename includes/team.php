@@ -81,7 +81,7 @@
     'role' => 'Head of Engineering & Fullstack Developer',
     'country' => 'Nigeria',
     'flag' => 'https://flagcdn.com/ng.svg',
-    'image' => 'https://your-image-link.jpg',
+    'image' => 'https://www.nairaland.com/attachments/19346481_img20250614wa0002_jpeg3cc9d8cf36a870d7dd22571906675151',
     'description' => 'Highly skilled in React, Node.js, Next.js, TypeScript, Flutter, and React Native. Leads engineering teams and drives development across web and mobile platforms.',
     'color' => 'red',
     'linkedin' => 'https://www.linkedin.com/in/osamudiamen-aghahowa-2a8b73237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
