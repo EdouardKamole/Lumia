@@ -15,7 +15,7 @@ if ($currentPage !== 'projects.php') {
 ?>
 
 <!-- Portfolio Grid -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-4 bg-black">
     <?php if (!empty($projects)): ?>
         <?php foreach ($projects as $project): ?>
             <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-800 bg-gray-900 hover:shadow-xl transition-all duration-500">
