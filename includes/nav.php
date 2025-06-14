@@ -19,7 +19,7 @@
                     'Home' => 'index.php',
                     'Services' => 'services.php',
                     'Work' => 'projects.php',
-                    'About' => 'about.php',
+                    'About' => 'about.php',               'Team' => 'team.php'
                     'Contact' => 'contact.php'
                 ];
                 
